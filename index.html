@@ -22,19 +22,24 @@
 						<input type="password" placeholder="Password"  name="userpass" value="" class="login__input__password" >
 
 						<div class="form__send">
-							<p class="form__checbox__text"><input type="checkbox" name="Remember " value="" class="" > Remember My password</p>
+							
+								<input type="checkbox" name="Remember " value="" class="form__checbox" >
+								<span class="form__checbox__text" data-title="You no longer need to enter a password every time you use the site"> Remember My password</span>
 						<button type="submit" class="butoon__login">Login</button></div>
 					</form>
 
 				</div>
 				<img class="border" src="img/Layer_6.png" alt="">
 				<div class="form__register">
-					<span>Register</span>
+					<span class="form__title">Register</span>
 						<form action="#" method="post">
-							<input type="text" placeholder="User Name" name="username" value="" class="login__input__username">
-							<input type="text" placeholder="User Name" name="username" value="" class="login__input__username">
-							<input type="text" placeholder="User Name" name="username" value="" class="login__input__username">
-							<button type="submit" class="butoon__login">Register</button>
+							<span class="form_list">Email</span>
+							<input type="text" name="username" value="" class="register__input__email">
+							<span class="form_list__username">User Name</span>
+							<input type="text"  name="username" value="" class="register__input__username">
+							<span class="form_list__password">Password</span>
+							<input type="text" name="username" value="" class="register__input__password">
+							<button type="submit" class="butoon__register">Register</button>
 						</form>
 
 

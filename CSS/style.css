@@ -30,13 +30,26 @@ a:hover{text-decoration:none;}
 ul li {list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
+@font-face{
+    font-family: "Source Sans Pro - Semibold";
+    src: url("../founs/Source Sans Pro Semibold.ttf"); 
+   }
+   @font-face{
+    font-family: "Source Sans Pro";
+    src: url("../founs/source-sans-pro-v14-latin-regular.ttf"); 
+   }
 
+.body{
+	width: 100%;
+	align-content: 
+}
 .body__form {
 	box-sizing: border-box;
 	width: 1114px;
 	height: 1290px;
 	text-align: center;
 	background-image: url("../img/Group 2.png") ;
+	margin: 0 auto;
 	}
 .criate__type__acount{
 	display:inline-block; 
@@ -98,7 +111,6 @@ width: 356px;
 height: 61px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 background-color: #ffffff;
-color: #e9e9e9;
 font-family: "Source Sans Pro - Semibold";
 font-size: 22px;
 border-radius: 10px;
@@ -106,13 +118,18 @@ margin-top:30px;
 margin-left: 29px;
 padding-left: 50px ;
 }
+.login__input__username::-webkit-input-placeholder {
+   color: #e9e9e9;
+   } 
+.login__input__username::-moz-placeholder{
+	color: #e9e9e9;
+}
 .login__input__password{
 		display: block;
 width: 356px;
 height: 61px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 background-color: #ffffff;
-color: #e9e9e9;
 font-family: "Source Sans Pro - Semibold";
 font-size: 22px;
 border-radius: 10px;
@@ -120,25 +137,59 @@ margin-top:33px;
 margin-left: 29px;
 padding-left: 50px ;
 }
+.login__input__password::-webkit-input-placeholder {
+   color: #e9e9e9;
+   } 
+.login__input__password::-moz-placeholder{
+	color: #e9e9e9;
+}
+
 .form__send{
 	display: flex;
 	width: 100%;
 }
 .form__checbox__text{
-color: #cbcbcb;
+	position: absolute;
+color:  #cbcbcb;
 font-family: "Source Sans Pro - Semibold";
 font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 90.52px;
-margin-top: 15px;
-margin-left: 26px;
+margin-top: 49px;
+margin-left: 55px;
+cursor: pointer;
+
 }
-.form__checbox{
+.form__checbox__text:before{
+display: block;
+position: absolute;
+width: 256px;
+height: 61px;
+box-shadow: 0 4px 9px 1px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+background-color: #ffffff;
+content: attr(data-title);
+color: #cbcbcb;
+font-family: "Myriad Pro";
+font-size: 14px;
+padding:16px 16px 16px 15px ;
+text-align: left;
+top: 38px;
+right: 52px;
+visibility: hidden;
+
+}
+.form__checbox__text:hover:before{
+	visibility: visible;
+}
+.form__checbox {
+	display: block;
 width: 19px;
 height: 19px;
 background-color: #e1e1e1;
+position: absolute;
+margin-top:48px; 
+margin-left: 28px;
+ 
+
 }
 .butoon__login{
 display:block;
@@ -151,7 +202,8 @@ color: #ffffff;
 font-family: "Source Sans Pro - Semibold";
 font-size: 22px;
 margin-top: 34px;
-margin-left: 50px;
+margin-left: 230px;
+text-align: center;
 
 }
 .border{
@@ -161,4 +213,102 @@ margin-left: 50px;
 	position: absolute;
 
 }
-.form__register{}
+.form__register{
+text-align: left;
+color: #676767;
+font-family: "Source Sans Pro";
+font-size: 16px;
+text-align: left;
+
+
+
+}
+
+.form__title{ 
+display: block; 
+color: #a6a6a6;
+font-family: "Source Sans Pro - Semibold";
+font-size: 20px;
+margin-top: 26px;
+margin-left: 26px;
+text-align: left;
+
+
+}
+.form_list{
+	display: block;
+	margin-left: 30px;
+	margin-top: 33px;
+	color: #b5b5b5;
+font-family: "Source Sans Pro";
+font-size: 16px;
+
+
+}
+.form_list__username{
+		display: block;
+	margin-left: 30px;
+	margin-top: 23px;
+	color: #b5b5b5;
+font-family: "Source Sans Pro";
+font-size: 16px;
+}
+.form_list__password{
+	display: block;
+	margin-left: 30px;
+	margin-top: 27px;
+color:#b5b5b5;
+font-family: "Source Sans Pro";
+font-size: 16px;
+}
+.register__input__email{
+		display: block;
+width: 356px;
+height: 51px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+font-family: "Source Sans Pro - Semibold";
+font-size: 22px;
+border-radius: 10px;
+margin-top: 16px;
+margin-left: 27px;
+padding-left: 50px ;
+}
+.register__input__username{
+		display: block;
+width: 356px;
+height: 51px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+font-family: "Source Sans Pro - Semibold";
+font-size: 22px;
+border-radius: 10px;
+margin-top:14px;
+margin-left: 29px;
+padding-left: 50px ;
+}
+.register__input__password{
+			display: block;
+width: 356px;
+height: 51px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+font-family: "Source Sans Pro - Semibold";
+font-size: 22px;
+border-radius: 10px;
+margin-top:18px;
+margin-left: 29px;
+padding-left: 50px ;
+}
+.butoon__register{
+width: 152px;
+height: 48px;
+background-color: #ffc334;
+background-image: linear-gradient(-30deg, #ffb400 0%, #aa7800 100%);
+border-radius: 10px;
+color: #ffffff;
+font-family: "Source Sans Pro - Semibold";
+font-size: 22px;
+margin-left: 230px;
+margin-top: 20px;
+}
