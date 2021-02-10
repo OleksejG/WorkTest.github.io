@@ -42,10 +42,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
 .body{
 	width: 100%;
 	height: auto;
-	
 }
-
-
 .body__form {
 	width: 1114px;
 	height: 1290px;
@@ -56,30 +53,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
 	}
 .criate__type__acount{
 	display:inline-block; 
-color: #b0b0b0;
-font-family: "Source Sans Pro - Semibold";
-font-size: 28px;
-margin-top:23%; 
-margin-left:21%;
-
+	color: #b0b0b0;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 28px;
+	margin-top:23%; 
+	margin-left:21%;
 }
 .form__conteiner{
-width: 74%;
-border: 1px solid #cecece;
-background-color: #f5f5f5;
-margin-top:6%;
-margin-left: 17%; 
-border-radius: 7px 7px 0 0;
+	width: 74%;
+	border: 1px solid #cecece;
+	background-color: #f5f5f5;
+	margin-top:6%;
+	margin-left: 17%; 
+	border-radius: 7px 7px 0 0;
 }
 .form__acount{
-display: flex;
+	display: flex;
 	width: 100%;
-height: 10%;
-background-color: #34b7ce;
-
-border-radius: 7px 7px 0 0;
-align-items: center;
-
+	height: 10%;
+	background-color: #34b7ce;
+	border-radius: 7px 7px 0 0;
+	align-items: center;
 }
 .notice__icon{
 	width: 9%;
@@ -87,21 +81,21 @@ align-items: center;
 	margin: 24px;
 }
 .form__type{
-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 34px;
-font-style: normal;
-letter-spacing: normal;
-line-height: 90.52px;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+	color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 34px;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 90.52px;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
 }
 .form__flex{
 	display: flex;
 }
 .form__login{display: block;
-width: 49%;
+	width: 49%;
 }
 .form__img{
 	width: 100%;
@@ -111,212 +105,197 @@ width: 49%;
 }
 .login__input__username{
 	display: block;
-width: 86%;
-height: 61px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-background-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-border-radius: 10px;
-margin-top:30px;
-margin-left: 29px;
-padding-left: 5% ;
+	width: 86%;
+	height: 61px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	border-radius: 10px;
+	margin-top:30px;
+	margin-left: 29px;
+	padding-left: 5% ;
 }
 .login__input__username::-webkit-input-placeholder {
-   color: #e9e9e9;
-   } 
+	color: #e9e9e9;
+} 
 .login__input__username::-moz-placeholder{
 	color: #e9e9e9;
 }
 .login__input__password{
-		display: block;
-width: 86%;
-height: 61px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-background-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-border-radius: 10px;
-margin-top:33px;
-margin-left: 29px;
-padding-left: 5% ;
+	display: block;
+	width: 86%;
+	height: 61px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	border-radius: 10px;
+	margin-top:33px;
+	margin-left: 29px;
+	padding-left: 5% ;
 }
 .login__input__password::-webkit-input-placeholder {
-   color: #e9e9e9;
-   } 
+	color: #e9e9e9;
+} 
 .login__input__password::-moz-placeholder{
 	color: #e9e9e9;
 }
-
 .form__send{
 	display: flex;
 	width: 100%;
 }
 .form__checbox__text{
 	position: absolute;
-color:  #cbcbcb;
-font-family: "Source Sans Pro - Semibold";
-font-size: 14px;
-margin-top: 49px;
-margin-left: 55px;
-cursor: pointer;
-
+	color:  #cbcbcb;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 14px;
+	margin-top: 49px;
+	margin-left: 55px;
+	cursor: pointer;
 }
 .form__checbox__text:before{
-display: block;
-position: absolute;
-width: 254px;
-height: 61px;
-box-shadow: 0 4px 9px 1px rgba(0, 0, 0, 0.15);
-border-radius: 8px;
-background-color: #ffffff;
-content: attr(data-title);
-color: #cbcbcb;
-font-family: "Myriad Pro";
-font-size: 14px;
-padding:16px 16px 16px 15px ;
-text-align: left;
-top: 38px;
-right: 52px;
-visibility: hidden;
-
+	display: block;
+	position: absolute;
+	width: 254px;
+	height: 61px;
+	box-shadow: 0 4px 9px 1px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	background-color: #ffffff;
+	content: attr(data-title);
+	color: #cbcbcb;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	padding:16px 16px 16px 15px ;
+	text-align: left;
+	top: 38px;
+	right: 52px;
+	visibility: hidden;
 }
 .form__checbox__text:hover:before{
 	visibility: visible;
 }
 .form__checbox {
 	display: block;
-width: 19px;
-height: 19px;
-background-color: #e1e1e1;
-position: absolute;
-margin-top:48px; 
-margin-left: 28px;
- 
-
+	width: 19px;
+	height: 19px;
+	background-color: #e1e1e1;
+	position: absolute;
+	margin-top:48px; 
+	margin-left: 28px;
 }
 .butoon__login{
-display:block;
-width: 40%;
-height: 48px;
-background-color: #00a0bc;
-background-image: linear-gradient(-30deg, #4fb6e2 0%, #004c6c 100%);
-border-radius: 10px;
-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-margin-top: 34px;
-margin-left: 55%;
-text-align: center;
-
+	display:block;
+	width: 40%;
+	height: 48px;
+	background-color: #00a0bc;
+	background-image: linear-gradient(-30deg, #4fb6e2 0%, #004c6c 100%);
+	border-radius: 10px;
+	color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	margin-top: 34px;
+	margin-left: 55%;
+	text-align: center;
 }
 .border{
 	width: 2%;
 	height: auto;
-padding-top: 10%;
-	
-
+	padding-top: 10%;
 }
 .form__register{
-text-align: left;
-color: #676767;
-font-family: "Source Sans Pro";
-font-size: 16px;
-text-align: left;
-width: 49%;
-padding-right: 20px;
-
-
+	text-align: left;
+	color: #676767;
+	font-family: "Source Sans Pro";
+	font-size: 16px;
+	text-align: left;
+	width: 49%;
+	padding-right: 20px;
 }
-
 .form__title{ 
-display: block; 
-color: #a6a6a6;
-font-family: "Source Sans Pro - Semibold";
-font-size: 20px;
-margin-top: 26px;
-margin-left: 26px;
-text-align: left;
-
-
+	display: block; 
+	color: #a6a6a6;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 20px;
+	margin-top: 26px;
+	margin-left: 26px;
+	text-align: left;
 }
 .form_list{
 	display: block;
 	margin-left: 30px;
 	margin-top: 33px;
 	color: #b5b5b5;
-font-family: "Source Sans Pro";
-font-size: 16px;
-
-
+	font-family: "Source Sans Pro";
+	font-size: 16px;
 }
 .form_list__username{
-		display: block;
+	display: block;
 	margin-left: 30px;
 	margin-top: 23px;
 	color: #b5b5b5;
-font-family: "Source Sans Pro";
-font-size: 16px;
+	font-family: "Source Sans Pro";
+	font-size: 16px;
 }
 .form_list__password{
 	display: block;
 	margin-left: 30px;
 	margin-top: 27px;
-color:#b5b5b5;
-font-family: "Source Sans Pro";
-font-size: 16px;
+	color:#b5b5b5;
+	font-family: "Source Sans Pro";
+	font-size: 16px;
 }
 .register__input__email{
-		display: block;
-width: 86%;
-height: 51px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-background-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-border-radius: 10px;
-margin-top: 16px;
-margin-left: 27px;
-padding-left: 5%;
+	display: block;
+	width: 86%;
+	height: 51px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	border-radius: 10px;
+	margin-top: 16px;
+	margin-left: 27px;
+	padding-left: 5%;
 }
 .register__input__username{
-		display: block;
-width: 86%;
-height: 51px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-background-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-border-radius: 10px;
-margin-top:14px;
-margin-left: 29px;
-padding-left: 5% ;
+	display: block;
+	width: 86%;
+	height: 51px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	border-radius: 10px;
+	margin-top:14px;
+	margin-left: 29px;
+	padding-left: 5% ;
 }
 .register__input__password{
-			display: block;
-width: 86%;
-height: 51px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-background-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-border-radius: 10px;
-margin-top:18px;
-margin-left: 29px;
-padding-left: 5%;
+	display: block;
+	width: 86%;
+	height: 51px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	border-radius: 10px;
+	margin-top:18px;
+	margin-left: 29px;
+	padding-left: 5%;
 }
 .butoon__register{
-width: 40%;
-height: 48px;
-background-color: #ffc334;
-background-image: linear-gradient(-30deg, #ffb400 0%, #aa7800 100%);
-border-radius: 10px;
-color: #ffffff;
-font-family: "Source Sans Pro - Semibold";
-font-size: 22px;
-margin-left: 50%;
-margin-top: 20px;
-margin-bottom: 20px;
+	width: 40%;
+	height: 48px;
+	background-color: #ffc334;
+	background-image: linear-gradient(-30deg, #ffb400 0%, #aa7800 100%);
+	border-radius: 10px;
+	color: #ffffff;
+	font-family: "Source Sans Pro - Semibold";
+	font-size: 22px;
+	margin-left: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 @media(max-width:1114px){
 	.form__checbox__text{
@@ -325,7 +304,6 @@ margin-bottom: 20px;
 		width: 100%;
 		height: 1290px;
 	}
-	
 }
 @media(max-width: 850px){
 	.body__form {
@@ -335,67 +313,56 @@ margin-bottom: 20px;
 	.form__type{
 		font-size: 24px;
 	}
-	.form__conteiner{
-
-}
-
 	.border{
 		visibility: hidden;
 	}
-
-
-.butoon__login{
-	margin-top: 70px;
-
-}
-.form__checbox__text:before{
-	right: 10px;
-}
-.form__img{
-	margin-left: -10%;
-}
-.butoon__register{
-	font-size: 20px;
-}
+	.butoon__login{
+		margin-top: 70px;
+	}
+	.form__checbox__text:before{
+		right: 10px;
+	}
+	.form__img{
+		margin-left: -10%;
+	}
+	.butoon__register{
+		font-size: 20px;
+	}
 }
 @media(max-width: 560px){
 	.body__form {
 		box-sizing: border-box;
-	width:100%; 
-	height: 100%;
+		width:100%; 
+		height: 100%;
 	}
-.form__conteiner{
+	.form__conteiner{
 		width: 100%;
 		height: auto;
-margin-top:0;
-margin-left: 0;
-
-
-}
-.form__acount{
-	width: 100%;
-}
-.form__img{
-	margin-left: 10%;
-}
+		margin-top:0;
+		margin-left: 0;
+	}
+	.form__acount{
+		width: 100%;
+	}
+	.form__img{
+		margin-left: 10%;
+	}
 	.criate__type__acount{
 		display: none;
 	}
-
-	
-.form__checbox__text:before{
-	left: 0;
-}
-.butoon__register{
-	font-size: 17px;
-}
+	.form__checbox__text:before{
+		left: 0;
+	}
+	.butoon__register{
+		font-size: 17px;
+	}
 }
 @media(max-width:496px){
 	.butoon__register{
-	width: 80%;
-	margin-left: 20%;
-}
-.form__img{
-	margin-left: 10%;
-}
+		width: 80%;
+		margin-left: 20%;
+	}
+	.form__img{
+		margin-left: 10%;
+	}
 }
