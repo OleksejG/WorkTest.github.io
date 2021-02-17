@@ -183,6 +183,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
 	position: absolute;
 	margin-top:48px; 
 	margin-left: 28px;
+
 }
 .butoon__login{
 	display:block;
@@ -295,6 +296,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
 	margin-left: 50%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+.login__input__username._req._error{
+	box-shadow: 0 0 15px red;
+
+}
+.login__input__password._req._error{
+	box-shadow: 0 0 15px red;
+}
+.register__input__email._reqr._error{
+	box-shadow: 0 0 15px red;
+}
+.register__input__username._reqr._error{
+	box-shadow: 0 0 15px red;
+}
+.register__input__password._reqr._error{
+	box-shadow: 0 0 15px red;
 }
 @media(max-width:1114px){
 	.form__checbox__text{

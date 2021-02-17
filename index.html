@@ -18,9 +18,9 @@
 			<div class="form__flex">
 				<div class="form__login">
 					<img src="img/4-layers.png" alt="" class="form__img">
-					<form action="#" method="post" name="login">
-						<input type="text" placeholder="User Name" name="username" value="" class="login__input__username">
-						<input type="password" placeholder="Password"  name="userpass" value="" class="login__input__password" >
+					<form action="#" method="post" id="Form__login" name="login">
+						<input type="text" placeholder="User Name" name="username" class="login__input__username _req">
+						<input type="password" placeholder="Password"  name="userpass"  class="login__input__password _req" >
 
 						<div class="form__send">
 							
@@ -36,14 +36,14 @@
 				
 				<div class="form__register">
 					<span class="form__title">Register</span>
-						<form action="#" method="post" name="register">
+						<form action="#" method="post"id="form__register" name="register">
 							<span class="form_list">Email</span>
-							<input type="text" name="username" value="" class="register__input__email">
+							<input type="text" name="username" class="register__input__email _reqr">
 							<span class="form_list__username">User Name</span>
-							<input type="text"  name="username" value="" class="register__input__username">
+							<input type="text"  name="username" class="register__input__username _reqr">
 							<span class="form_list__password">Password</span>
-							<input type="text" name="username" value="" class="register__input__password">
-							<button type="submit" class="butoon__register">Register</button>
+							<input type="text" name="username" class="register__input__password _reqr">
+							<button type="submit" id="register" class="butoon__register">Register</button>
 						</form>
 
 
@@ -51,7 +51,7 @@
 			</div>
 
 		</div>
-
+<script src="JS/script.js"></script>
 	</div>
 	</body>
 
